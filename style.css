@@ -48,7 +48,22 @@ a:hover {
     cursor: pointer;
 }
 
+article ul li {
+    display: inline;
+    margin: auto;
+    padding: 15px;
+    font-weight: bold;
+}
 
+article ul li:hover {
+    color: rgb(85, 85, 85);
+    cursor: pointer;
+}
+
+#planetDescription{
+    text-align: left;
+    font-size: x-large;
+}
 
 
 #canvas-container {
@@ -58,7 +73,7 @@ a:hover {
  
  canvas {
     border-radius: 15px;
-    display: inline;
+    width:80%;
  }
 
 	#logo
@@ -81,9 +96,15 @@ a:hover {
         display: block;
         border-radius: 30px;
         border: 2px solid black;
-        background-image: url(img/img.jpg);
+        background-image: url(img/background.jpg);
         
     }
+
+    #planety{ 
+        text-align: center;
+        font-size: x-large;
+        
+    } 
 
     img{
         border-radius: 15px;

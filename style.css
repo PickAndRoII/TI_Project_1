@@ -1,8 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body {
     top: 0;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 12pt;
 	background-color: rgb(85, 85, 85);
 	margin: 6mm;
@@ -17,8 +17,8 @@ nav {
     width: 100%;
     height: 5%;
     background-color: black;
-    opacity: 0.8;
-    filter: alpha(opacity=80);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
     text-align: center;
     font-size: 16px;
     font-size: 1vw;
@@ -26,10 +26,11 @@ nav {
    
 }
 
+
 nav ul li {
     display: inline;
     margin: auto;
-    padding: 10px;
+    padding: 15px;
 }
 
 nav:hover{
@@ -64,7 +65,8 @@ a {
         
 		background-color: rgb(85, 85, 85);;
 		color: lightgray;
-		text-align: center;
+        text-align: center;
+        font-size: xx-large;
 		padding: 15px;
 	}
 	article
@@ -80,7 +82,18 @@ a {
         border: 2px solid black;
         background-image: url(img/img.jpg);
         
-	}
+    }
+
+    figure{
+        text-align: center;
+    }
+    figcaption{
+        width: 975px;
+        background-color: white;
+        margin:auto;
+    }
+    
+    
 
 	footer
 	{
